@@ -112,6 +112,7 @@ for images, labels in train_ds.take(1):
         plt.imshow(images[i].numpy().astype("uint8"))
         plt.title(int(labels[i]))
         plt.axis("off")
+     plt.show()
 
 """
 ## Using image data augmentation
